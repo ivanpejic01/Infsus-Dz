@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\putovanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\putovanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\soba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\soba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Putovanje\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Create.cshtml",
-              "RelativeToolTip": "Views\\Putovanje\\Create.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwH4AAAAJAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Soba\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Index.cshtml",
+              "RelativeToolTip": "Views\\Soba\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-24T11:55:12.011Z",
+              "WhenOpened": "2024-05-24T12:18:38.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Putovanje\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Index.cshtml",
-              "RelativeToolTip": "Views\\Putovanje\\Index.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAgwEQAAAAAAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Soba\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Details.cshtml",
+              "RelativeToolTip": "Views\\Soba\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-24T11:41:30.617Z",
+              "WhenOpened": "2024-05-24T12:18:37.12Z",
               "EditorCaption": ""
             }
           ]
