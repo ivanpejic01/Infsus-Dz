@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Izaberite sobu";
+}
+
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+</style>
+
+<h2>Izaberite sobu</h2>
+
+<form asp-action="Submit">
+    <div>
+        <label for="soba">Vrsta Sobe:</label>
+        <select id="soba" name="idSobe" asp-items="ViewBag.Sobe">
+            <option value="">Odaberite</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>

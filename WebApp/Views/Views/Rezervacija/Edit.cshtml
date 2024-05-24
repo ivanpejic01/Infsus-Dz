@@ -1,0 +1,46 @@
+﻿@model WebApp.Models.Rezervacija
+
+@{
+    ViewBag.Title = "Uredi rezervaciju";
+}
+
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+</style>
+<h2>Uredi rezervaciju</h2>
+
+<h4>Rezervacija</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div class="form-group">
+                <input type="hidden" asp-for="IdRezervacija" />
+                <input type="hidden" asp-for="IdKorisnik" />
+                <input type="hidden" asp-for="IdPutovanje" />
+
+
+                <label>Potvrdi?</label>
+                <div>
+                    <label class="radio-inline">
+                        <input type="radio" asp-for="Potvrdeno" value="1" checked /> Da
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" asp-for="Potvrdeno" value="0" /> Ne
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Spremi" class="btn btn-primary" />
+                <a asp-controller="Putovanje" asp-action="Details" asp-route-id="@Model.IdPutovanje" class="btn btn-secondary">Odustani</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

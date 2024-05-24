@@ -1,0 +1,88 @@
+﻿@model WebApp.Models.Mjesto
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    .alert-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999; 
+    }
+
+    .fade-out {
+        animation: fadeOut ease 2s;
+        animation-fill-mode: forwards; 
+    }
+
+    @@keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+</style>
+
+<h3>Ažuriranje mjesta</h3>
+<form asp-route-idMjesta="@Model.IdMjesto" method="post">
+
+    <div class="form-group">
+        Naziv mjesta:
+        <input asp-for="Naziv" class="form-control" />
+        <div><span asp-validation-for="Naziv" class="text-danger"></span></div>
+
+
+        Poštanski broj:
+        <input asp-for="Postanskibroj" class="form-control" />
+        <div><span asp-validation-for="Postanskibroj" class="text-danger"></span></div>
+
+    </div>
+
+    <div class="alert-container">
+        @if (TempData.ContainsKey(Constants.Message))
+        {
+            <div id="alert-message" class="alert alert-@((bool)TempData[Constants.ErrorOccurred] ? "danger" : "success")">
+                @TempData[Constants.Message]
+            </div>
+        }
+    </div>
+    <div class="text-center">
+        <button class="btn btn-primary" type="submit">Spremi</button>
+        <a asp-action="Index" class="btn btn-secondary">Odustani</a>
+    </div>
+
+</form>
+
+<script>
+
+    var alertMessage = document.getElementById('alert-message');
+    if (alertMessage) {
+        setTimeout(function () {
+            alertMessage.classList.add('fade-out');
+        }, 3000); 
+    }
+</script>
+
+@section scripts {
+    <partial name="IncludeValidation" />
+}

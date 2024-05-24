@@ -1,0 +1,83 @@
+﻿@model WebApp.Models.Putovanje
+
+@{
+    ViewData["Title"] = "Uredi putovanje";
+}
+
+<h2>Uredi putovanje</h2>
+
+<h4>Putovanje</h4>
+<hr />
+
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+</style>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            
+            <div class="form-group">
+                <input type="hidden" asp-for="IdPutovanja" />
+                <label asp-for="IdMjesto" class="control-label">Mjesto</label>
+                <select asp-for="IdMjesto" class="form-control" asp-items="ViewBag.IdMjesto"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdSmjestaj" class="control-label">Smještaj</label>
+                <select asp-for="IdSmjestaj" class="form-control" asp-items="ViewBag.IdSmjestaj"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdVozilo" class="control-label">Vozilo</label>
+                <select asp-for="IdVozilo" class="form-control" asp-items="ViewBag.IdVozilo"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdVrstaPutovanja" class="control-label">Vrsta putovanja</label>
+                <select asp-for="IdVrstaPutovanja" class="form-control" asp-items="ViewBag.IdVrstaPutovanja"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Opis" class="control-label">Opis</label>
+                <input asp-for="Opis" class="form-control" />
+                <div><span asp-validation-for="Opis" class="text-danger"></span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImeprezimeVoditelj" class="control-label">Ime i prezime voditelja</label>
+                <input asp-for="ImeprezimeVoditelj" class="form-control" />
+                <div><span asp-validation-for="ImeprezimeVoditelj" class="text-danger"></span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cijena" class="control-label">Cijena</label>
+                <input asp-for="Cijena" class="form-control" />
+                <div><span asp-validation-for="Cijena" class="text-danger"></span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatumPolaska" class="control-label">Datum polaska</label>
+                <input asp-for="DatumPolaska" class="form-control" type="date" />
+                <div><span asp-validation-for="DatumPolaska" class="text-danger"></span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatumPovratka" class="control-label">Datum povratka</label>
+                <input asp-for="DatumPovratka" class="form-control" type="date" />
+                <div><span asp-validation-for="DatumPovratka" class="text-danger"></span></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rate" class="control-label">Rate (da/ne)</label>
+                <select asp-for="Rate" class="form-control" asp-items="ViewBag.Rate"></select>
+            </div>
+            <br />
+            <div class="form-group">
+                <form asp-action="Edit" asp-route-id="@Model.IdPutovanja" method="post">
+                    <input type="submit" value="Spremi promjene" class="btn btn-primary" />
+                </form>
+                <a asp-action="Index" class="btn btn-secondary">Odustani</a>
+                
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+

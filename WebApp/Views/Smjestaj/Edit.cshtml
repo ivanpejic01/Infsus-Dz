@@ -1,0 +1,116 @@
+﻿@model WebApp.Models.Smjestaj
+
+@{
+    ViewData["Title"] = "Uredi smještaj";
+}
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+
+    .alert-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999; 
+    }
+
+
+    .fade-out {
+        animation: fadeOut ease 2s;
+        animation-fill-mode: forwards; 
+    }
+
+    @@keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+</style>
+<h2>Uredi smještaj</h2>
+
+<h4>Smještaj</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+     
+            <div class="form-group">
+                <input type="hidden" asp-for="IdSmjestaj" />
+                <label asp-for="Naziv" class="control-label">Naziv:</label>
+                <input asp-for="Naziv" class="form-control" />
+                <div><span asp-validation-for="Naziv" class="text-danger"></span></div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IdVrstaSmjestaja" class="control-label">Vrsta smještaja</label>
+                <select asp-for="IdVrstaSmjestaja" class="form-control" asp-items="ViewBag.IdVrstaSmjestaja"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IdSoba" class="control-label">Vrsta sobe:</label>
+                <select asp-for="IdSoba" class="form-control" asp-items="ViewBag.IdSoba"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="IdObrok" class="control-label">Obroci:</label>
+                <select asp-for="IdObrok" class="form-control" asp-items="ViewBag.IdObrok"></select>
+            </div>
+            
+            
+
+            
+      
+            <br />
+            <div class="form-group">
+                <form asp-action="Edit" asp-route-id="@Model.IdSmjestaj" method="post">
+                    <input type="submit" value="Spremi promjene" class="btn btn-primary" />
+                </form>
+                <a asp-action="Index" class="btn btn-secondary"> Odustani </a>
+   
+
+            </div>
+
+
+            <div class="alert-container">
+                @if (TempData.ContainsKey(Constants.Message))
+                {
+                    <div id="alert-message" class="alert alert-@((bool)TempData[Constants.ErrorOccurred] ? "danger" : "success")">
+                        @TempData[Constants.Message]
+                    </div>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+
+<script>
+    var alertMessage = document.getElementById('alert-message');
+    if (alertMessage) {
+        setTimeout(function () {
+            alertMessage.classList.add('fade-out');
+        }, 3000);
+    }
+</script>

@@ -1,0 +1,33 @@
+﻿@model WebApp.Models.Soba
+
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+</style>
+
+<h2>Detalji o sobi</h2>
+
+<div>
+    <h4>Soba</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Vrsta Sobe</dt>
+        <dd>@Model.VrstaSobe</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

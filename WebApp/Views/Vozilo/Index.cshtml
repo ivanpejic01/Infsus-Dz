@@ -1,0 +1,66 @@
+﻿@model WebApp.ViewModels.VozilaViewModel
+@{
+    ViewData["Title"] = "Vozila";
+}
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+    }
+</style>
+<body>
+
+    <h1>Vrste vozila</h1>
+
+
+
+    <table class="table table-sm table-stripped table-hover" id="vozila">
+        <thead>
+            <tr>
+                <th>
+                    <a>
+                        Id vozila
+                    </a>
+                </th>
+
+                <th>
+                    <a>
+                        Vrsta vozila
+                    </a>
+                </th>
+
+                
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vozilo in Model.vozila)
+            {
+                <tr>
+                    <td>@vozilo.idVozila</td>
+                    <td>@vozilo.vrstaVozila</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+
+
+    <div style="text-align: center;">
+        <img src="https://images.squarespace-cdn.com/content/v1/51cdafc4e4b09eb676a64e68/1470951917131-VO6KK2XIFP4LPLCYW7YU/McQueen15.jpg" width="300" height="200" />
+    </div>
+
+</body>

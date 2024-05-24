@@ -1,0 +1,136 @@
+﻿@using WebApp
+@model WebApp.ViewModels.PutovanjaViewModel;
+@{
+    ViewData["Title"] = "Putovanja";
+}
+
+<style>
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 stupca */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    .action-buttons {
+        margin-top: 10px;
+    }
+
+    button {
+        margin: 3px;
+    }
+</style>
+
+<body>
+
+    <h1>Putovanja</h1>
+    <div class="alert-container">
+        @if (TempData.ContainsKey(Constants.Message))
+        {
+            <div class="alert alert-@((bool)TempData[Constants.ErrorOccurred] ? "danger" : "success")">
+                @TempData[Constants.Message]
+            </div>
+        }
+    </div>
+
+    <form method="get" action="@Url.Action("Index", "Putovanje")" id="filterForm">
+        <label for="datumPolaska">Datum polaska:</label>
+        <input type="date" name="datumPolaska" id="datumPolaska" />
+        <label for="datumPovratka">Datum povratka:</label>
+        <input type="date" name="datumPovratka" id="datumPovratka" min="" />
+        <button class="btn btn-sm btn-success" type="submit">Filtriraj</button>
+        <a class="btn btn-sm btn-success" asp-action="Index" asp-router="Putovanje">Poništi filter</a>
+    </form>
+
+    <script>
+        // Dohvaćanje polja za odabir datuma polaska
+        var datumPolaskaInput = document.getElementById("datumPolaska");
+        // Dohvaćanje polja za odabir datuma povratka
+        var datumPovratkaInput = document.getElementById("datumPovratka");
+
+        // Dodavanje event listenera na promjenu datuma polaska
+        datumPolaskaInput.addEventListener("change", function () {
+            // Postavljanje min atributa na polju za odabir datuma povratka na odabrani datum polaska
+            datumPovratkaInput.min = datumPolaskaInput.value;
+            // Resetiranje vrijednosti polja za odabir datuma povratka ako je ona manja od odabranog datuma polaska
+            if (datumPovratkaInput.value < datumPolaskaInput.value) {
+                datumPovratkaInput.value = "";
+            }
+        });
+    </script>
+
+
+    <div class="grid-container">
+
+        @foreach(var putovanje in Model.putovanja)
+        {
+            <div class="grid-item">
+                <a asp-action="Details" asp-controller="Putovanje" asp-route-id="@putovanje.IdPutovanja">
+                <h3>@putovanje.Opis</h3>
+                <p><strong>Cijena: </strong> @putovanje.Cijena €</p>
+                    <p><strong>Datum polaska: </strong> @putovanje.DatumPolaska.ToString("dd.MM.yyyy")</p>
+                    <p><strong>Datum povratka: </strong> @putovanje.DatumPovratka.ToString("dd.MM.yyyy")</p>
+                </a>
+                <div class="action-buttons">
+                    <a class="btn btn-sm btn-success" asp-action="Edit" asp-controller="Putovanje" asp-route-id="@putovanje.IdPutovanja">Uredi</a>
+                    <a class="btn-group btn-sm btn-danger delete" asp-action="Delete" asp-controller="Putovanje" asp-route-id="@putovanje.IdPutovanja"
+                       onclick="return confirm('Jeste li sigurni da želite obrisati ovo putovanje?');">Izbriši</a>
+                </div>
+            </div>
+        }
+    </div>
+    <a class="btn btn-sm btn-success" asp-action="Create">Kreiraj Novo Putovanje</a>
+    <page url="@Url.Action("Index")" page="Model.PageNumber" page-size="Model.PageSize" total-items="Model.TotalCount"></page>
+    
+    <div class="pagination">
+        @if (Model.TotalPages > 1)
+        {
+            @if (Model.PageNumber > 1)
+            {
+                <button class="btn btn-primary" onclick="changePage(@Model.PageNumber - 1)">&lt;</button>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <button class="btn btn-primary" onclick="changePage(@i)" @(i == Model.PageNumber ? "disabled" : "")>@i</button>
+            }
+
+            @if (Model.PageNumber < Model.TotalPages)
+            {
+                <button class="btn btn-primary" onclick="changePage(@Model.PageNumber + 1)">&gt;</button>
+            }
+        }
+    </div>
+
+    <script>
+        function changePage(pageNumber) {
+            window.location.href = "@Url.Action("Index")?page=" + pageNumber;
+        }
+    </script>
+
+</body>

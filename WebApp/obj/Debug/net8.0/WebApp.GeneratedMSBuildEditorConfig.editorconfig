@@ -1,0 +1,175 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebApp
+build_property.RootNamespace = WebApp
+build_property.ProjectDir = C:\Users\Ivan\Desktop\Faks\Godina_4\Semestar_2\Paralelno programiranje\lab1_test\WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ivan\Desktop\Faks\Godina_4\Semestar_2\Paralelno programiranje\lab1_test\WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Mjesto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWplc3RvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Mjesto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWplc3RvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Mjesto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWplc3RvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Mjesto/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWplc3RvXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Putovanje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0b3ZhbmplXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Putovanje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0b3ZhbmplXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Putovanje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0b3ZhbmplXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Putovanje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHV0b3ZhbmplXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Rezervacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Rezervacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YWNpamFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Shared/IncludeValidation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluY2x1ZGVWYWxpZGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Smjestaj/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Smjestaj/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Smjestaj/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Smjestaj/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU21qZXN0YWpcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Soba/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Soba/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29iYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Putovanje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUHV0b3ZhbmplXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Putovanje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUHV0b3ZhbmplXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Putovanje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUHV0b3ZhbmplXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Putovanje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUHV0b3ZhbmplXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Rezervacija/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUmV6ZXJ2YWNpamFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Rezervacija/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcUmV6ZXJ2YWNpamFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Shared/IncludeValidation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcU2hhcmVkXEluY2x1ZGVWYWxpZGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Vozilo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm96aWxvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7882z672yd
+
+[C:/Users/Ivan/Desktop/Faks/Godina_4/Semestar_2/Paralelno programiranje/lab1_test/WebApp/Views/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zjvn08i01g

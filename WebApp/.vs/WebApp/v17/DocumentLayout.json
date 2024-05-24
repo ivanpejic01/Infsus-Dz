@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\putovanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\putovanje\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Putovanje\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Create.cshtml",
+              "RelativeToolTip": "Views\\Putovanje\\Create.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAUwH4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T11:55:12.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Putovanje\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Index.cshtml",
+              "RelativeToolTip": "Views\\Putovanje\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAgwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T11:41:30.617Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

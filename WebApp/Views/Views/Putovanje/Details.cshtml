@@ -1,0 +1,178 @@
+﻿@model WebApp.Models.Putovanje
+
+@{
+    ViewBag.Title = "Detalji putovanja";
+}
+
+
+<style>
+
+    body {
+        background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+    }
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 10px;
+        flex: 1;
+        min-width: 300px;
+    }
+
+    .reservations-table {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 10px;
+        flex: 2;
+        min-width: 600px;
+    }
+
+        .card h4, .reservations-table h4 {
+            margin-top: 0;
+        }
+
+    .card dt {
+        font-weight: bold;
+    }
+
+    .card dd {
+        margin-bottom: 10px;
+    }
+
+    .reservations-table {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+        .reservations-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .reservations-table th,
+        .reservations-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .reservations-table th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        a {
+            margin: 3px;
+            text-decoration: none;
+        }
+</style>
+<a asp-action="Index" class="btn btn-secondary">Povratak</a>
+<div class="container">
+<div class="card">
+
+    <h4>Detalji putovanja</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        
+
+        <dt>Mjesto: </dt>
+        <dd>@Model.IdMjestoNavigation.Naziv</dd>
+
+        <dt>Vrsta putovanja</dt>
+        <dd>@Model.IdVrstaPutovanjaNavigation.NazivVrstePut</dd>
+
+        <dt>Opis:</dt>
+        <dd>@Model.Opis</dd>
+
+        <dt>Vrsta smještaja:</dt>
+        <dd>@Model.IdSmjestajNavigation.IdVrstaSmjestajaNavigation.VrstaSmjestaja1</dd>
+
+        <dt>Vrsta soba:</dt>
+        <dd>@Model.IdSmjestajNavigation.IdSobaNavigation.VrstaSobe</dd>
+
+        <dt>Vrsta obroka:</dt>
+        <dd>@Model.IdSmjestajNavigation.IdObrokNavigation.VrstaObroka</ dd>
+
+        <dt>Vozilo:</dt>
+        <dd>@Model.IdVoziloNavigation.VrstaVozila</dd>
+
+        <dt>Cijena:</dt>
+        <dd>@Model.Cijena €</dd>
+
+        <dt>Datum Polaska:</dt>
+        <dd>@Model.DatumPolaska.ToString("dd.MM.yyyy")</dd>
+
+        <dt>Datum Povratka:</dt>
+        <dd>@Model.DatumPovratka.ToString("dd.MM.yyyy")</dd>
+
+        <dt>Rate:</dt>
+        <dd>@Model.Rate</dd>
+
+
+
+    </dl>
+    </div>
+
+    
+ 
+    <div class="reservations-table">
+        <h4>Rezervacije za putovanje</h4>
+        <hr />
+        <table>
+            <thead>
+                <tr>
+                    <th>Datum rezervacije</th>
+                    <th>Ime klijenta</th>
+                    <th>Prezime klijenta</th>
+                    <th>Email klijenta</th>
+                    <th>Potvrđena (0/1)</th>
+                    <th>Broj mjesta</th>
+                    <th>Opcije</th>
+
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach(var rezervacija in Model.Rezervacijas)
+                {
+                    <tr>
+                        <td>@rezervacija.DatumRezervacije.ToString("dd.MM.yyyy")</td>
+                        <td>@rezervacija.IdKorisnikNavigation.Ime</td>
+                        <td>@rezervacija.IdKorisnikNavigation.Prezime</td>
+                        <td>@rezervacija.IdKorisnikNavigation.Email</td>
+                        <td>@rezervacija.Potvrdeno</td>
+                        <td>@rezervacija.BrojMjesta</td>
+                        
+                        <td>
+                            <a href="@Url.Action("Edit", "Rezervacija", new { id = @rezervacija.IdRezervacija })" class="btn btn-sm btn-success">Ažuriraj</a>
+                            <br />
+                            <a href="@Url.Action("Delete", "Rezervacija", new { id = @rezervacija.IdRezervacija })" class="btn-group btn-sm btn-danger delete" onclick="return confirm('Jeste li sigurni da želite obrisati ovu rezervaciju?');">Obriši</a>
+                        </td>
+                        
+                    </tr>
+                }
+
+            </tbody>
+
+
+        </table>
+        <hr />
+            <div class="create-reservation">
+                <a href="@Url.Action("Create", "Rezervacija", new { id = @Model.IdPutovanja })" class="btn btn-success">Kreiraj novu rezervaciju</a>
+            </div>
+    </div>
+
+
+    
+</div>
