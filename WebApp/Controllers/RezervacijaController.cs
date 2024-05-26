@@ -30,42 +30,30 @@ namespace WebApp.Controllers
                 return NotFound();
             }
 
-
             return View(rezervacija);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdRezervacija,DatumRezervacije,IdKorisnik,Potvrdeno,IdPutovanje")] Rezervacija rezervacija)
+        public async Task<IActionResult> Edit(int id, [Bind("IdRezervacija,IdKorisnik,Potvrdeno,IdPutovanje,BrojMjesta,DatumRezervacije")] Rezervacija rezervacija)
         {
 
-            if (id != rezervacija.IdRezervacija)
+            if (!RezervacijaExists(rezervacija.IdRezervacija))
             {
-                return NotFound();
+                return View(rezervacija);
             }
-
-            if (ModelState.IsValid)
+            else
             {
-                try
-                {
-                    ctx.Update(rezervacija);
-                    await ctx.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!RezervacijaExists(rezervacija.IdRezervacija))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                var postojecaRezervacija = await ctx.Rezervacija.FindAsync(id);
+                postojecaRezervacija.Potvrdeno = rezervacija.Potvrdeno;
+                ctx.Update(postojecaRezervacija);
+                await ctx.SaveChangesAsync();
                 return RedirectToAction("Details", "Putovanje", new { id = rezervacija.IdPutovanje });
             }
-            return RedirectToAction("Details", "Putovanje", new { id = rezervacija.IdPutovanje });
+
+
+
         }
 
         private bool RezervacijaExists(int id)

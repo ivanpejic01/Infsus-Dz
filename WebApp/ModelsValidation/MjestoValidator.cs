@@ -16,6 +16,7 @@ namespace WebApp.ModelsValidation
 
             RuleFor(d => d.Postanskibroj)
                 .NotEmpty().WithMessage("Poštanski broj je obavezno polje!")
+                .GreaterThan(0).WithMessage("Poštanski broj mora biti pozitivan")
                 .Must(w => w.ToString().Length == 5).WithMessage("Poštanski broj mora sadržavati točno 5 znamenki!");
         }
 

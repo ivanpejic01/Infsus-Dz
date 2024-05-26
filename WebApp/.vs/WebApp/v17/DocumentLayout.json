@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:controllers\\rezervacijacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\soba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\soba\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\views\\rezervacija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\views\\rezervacija\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:models\\rezervacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\putovanje\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\putovanje\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\modelsvalidation\\mjestovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:modelsvalidation\\mjestovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\controllers\\putovanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:controllers\\putovanjecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\views\\putovanje\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|c:\\users\\ivan\\desktop\\faks\\godina_4\\semestar_2\\paralelno programiranje\\lab1_test\\webapp\\views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DF02084-FBC7-4DDB-A091-1BF244094612}|WebApp.csproj|solutionrelative:views\\soba\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Putovanje\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Putovanje\\Details.cshtml",
+              "RelativeToolTip": "Views\\Putovanje\\Details.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAgwJUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T12:49:54.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rezervacija.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Models\\Rezervacija.cs",
+              "RelativeDocumentMoniker": "Models\\Rezervacija.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Models\\Rezervacija.cs",
+              "RelativeToolTip": "Models\\Rezervacija.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:31:54.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RezervacijaController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Controllers\\RezervacijaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RezervacijaController.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Controllers\\RezervacijaController.cs",
+              "RelativeToolTip": "Controllers\\RezervacijaController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:24:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Views\\Rezervacija\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Views\\Rezervacija\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Views\\Rezervacija\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Views\\Rezervacija\\Edit.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T12:24:39.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAApwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:17:34.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MjestoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\ModelsValidation\\MjestoValidator.cs",
+              "RelativeDocumentMoniker": "ModelsValidation\\MjestoValidator.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\ModelsValidation\\MjestoValidator.cs",
+              "RelativeToolTip": "ModelsValidation\\MjestoValidator.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:15:48.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Views\\Putovanje\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Views\\Putovanje\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Views\\Putovanje\\Index.cshtml",
+              "RelativeToolTip": "Views\\Views\\Putovanje\\Index.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T11:50:51.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PutovanjeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Controllers\\PutovanjeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PutovanjeController.cs",
+              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Controllers\\PutovanjeController.cs",
+              "RelativeToolTip": "Controllers\\PutovanjeController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwGIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:47:52.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Soba\\Index.cshtml",
@@ -31,19 +163,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-24T12:18:38.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Soba\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Ivan\\Desktop\\Faks\\Godina_4\\Semestar_2\\Paralelno programiranje\\lab1_test\\WebApp\\Views\\Soba\\Details.cshtml",
-              "RelativeToolTip": "Views\\Soba\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-24T12:18:37.12Z",
               "EditorCaption": ""
             }
           ]

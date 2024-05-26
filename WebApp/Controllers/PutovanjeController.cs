@@ -83,9 +83,23 @@ namespace WebApp.Controllers
             {
                 return NotFound();
             }
-            ctx.Putovanje.Remove(putovanje);
-            await ctx.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+
+            try
+            {
+                ctx.Putovanje.Remove(putovanje);
+                await ctx.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                // Log the exception (optional)
+                // logger.LogError(ex, "An error occurred while deleting the record.");
+
+                // Pass the error message to the Index action
+                TempData[Constants.Message] = "Došlo je do greške prilikom brisanja zapisa.";
+                TempData[Constants.ErrorOccurred] = true;
+                return RedirectToAction(nameof(Index));
+            }
         }
 
         [HttpGet]
